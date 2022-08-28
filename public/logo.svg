@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="210" height="150" viewBox="0 0 2100 1500">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #3a70d3;
+        stroke-width: 5px;
+        fill-rule: evenodd;
+        fill: url(#linear-gradient);
+        filter: url(#filter);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1173.015" y1="1350.34" x2="1173.015" y2="83.656" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0bbafb"/>
+      <stop offset="1" stop-color="#4285ec"/>
+    </linearGradient>
+    <filter id="filter" x="505" y="71" width="1314" height="1292" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-34" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood" flood-color="#005aff" flood-opacity="0.4"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feGaussianBlur result="blur-2" stdDeviation="3.333" in="SourceAlpha"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feComposite result="composite-4"/>
+      <feFlood result="flood-2" flood-color="#0084ff"/>
+      <feComposite result="composite-5" operator="in" in2="composite-4"/>
+      <feBlend result="blend" mode="screen" in2="composite"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <image id="Layer_0" data-name="Layer 0" width="2100" height="1500" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAANIAAACWCAYAAACrUNY4AAAB1klEQVR4nO3TQQ3DQBDAwE3Ub/gjbAkEwFWhkPNzBoIlH2ut78xcA7x1PyMt+WDP+dykIWy5T/1gn5EgYCQIGAkCRoKAkSBgJAgYCQJGgoCRIGAkCBgJAkaCgJEgYCQIGAkCRoKAkSBgJAgYCQJGgoCRIGAkCBgJAkaCgJEgYCQIGAkCRoKAkSBgJAgYCQJGgoCRIGAkCBgJAkaCgJEgYCQIGAkCRoKAkSBgJAgYCQJGgoCRIGAkCBgJAkaCgJEgYCQIGAkCRoKAkSBgJAgYCQJGgoCRIGAkCBgJAkaCgJEgYCQIGAkCRoKAkSBgJAgYCQJGgoCRIGAkCBgJAkaCgJEgYCQIGAkCRoKAkSBgJAgYCQJGgoCRIGAkCBgJAkaCgJEgYCQIGAkCRoKAkSBgJAgYCQJGgoCRIGAkCBgJAkaCgJEgYCQIGAkCRoKAkSBgJAgYCQJGgoCRIGAkCBgJAkaCgJEgYCQIGAkCRoKAkSBgJAgYCQJGgoCRIGAkCBgJAkaCgJEgYCQIGAkCRoKAkSBgJAgYCQJGgoCRIGAkCBgJAkaCgJEgYCQIGAkCRoKAkSBgJAgYCQJGgoCRIGAkCBgJAkaCwLHWWkLCns/M/Gbm0hFemrn/Zx0R0vdUtxgAAAAASUVORK5CYII="/>
+  <g style="fill: url(#linear-gradient); filter: url(#filter)">
+    <path id="T" class="cls-1" d="M539.772,83.656L658.079,319.47,1025.27,428.42l-206.791,754.5,158,167.42L1224.71,484.073l340.04,98.57,241.49-143.758Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#T" style="stroke: #3a70d3; filter: none; fill: none"/>
+</svg>
